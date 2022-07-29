@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: black;
+}
+.time{
+    color:rgb(24,210,110);
+    font-size: 500%;
+}
+button{
+    color: black;
+    padding: 0.5rem;
+
+}
+button:hover{
+    background-color: rgb(24,210,110);
+    color: black;
+}
