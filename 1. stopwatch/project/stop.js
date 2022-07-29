@@ -7,7 +7,7 @@ var ms =0, s = 0, m = 0;
 var count;
 
 start.addEventListener('click', function(){
-    if (!counter){
+    if (!count){
     count = setInterval(run_seconds, 10)
 }
     function run_seconds(){
@@ -22,4 +22,15 @@ start.addEventListener('click', function(){
        
      }
     
+})
+pause.addEventListener('click', function(){
+    clearInterval(count)
+    count = false
+})
+reset.addEventListener('click', function(){
+    clearInterval(count)
+    count = false
+    m =0, s = 0, ms=0
+    time.textContent = m + ':' + s + ':' + ms
+
 })
