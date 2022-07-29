@@ -32,5 +32,4 @@ reset.addEventListener('click', function(){
     count = false
     m =0, s = 0, ms=0
     time.textContent = m + ':' + s + ':' + ms
-
 })
