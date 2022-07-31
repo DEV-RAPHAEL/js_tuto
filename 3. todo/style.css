@@ -11,17 +11,20 @@ h1{
     color: orange;
     font-size: 400%;
 }
-.field{
+form{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.field #text{
+form #text{
     font-size: 150%;
     margin-bottom: 10px;
 }
 #text::placeholder{
     color: orange;
     text-align: center;
+}
+li{
+    font-size: 120%;
 }
