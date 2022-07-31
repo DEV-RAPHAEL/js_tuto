@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 90vh;
+}
+h1{
+    color: orange;
+    font-size: 400%;
+}
+.field{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.field #text{
+    font-size: 150%;
+    margin-bottom: 10px;
+}
+#text::placeholder{
+    color: orange;
+    text-align: center;
+}
