@@ -1,9 +1,9 @@
 /* Events.html begins */
 /* Assigning all variables  */
-var btn1 =  document.querySelector('#one')
-var btn2 =  document.querySelector('#two')
-var btn3 =  document.querySelector('#three')
-var btn4 =  document.querySelector('#four')
+let btn1 =  document.querySelector('#one')
+let btn2 =  document.querySelector('#two')
+let btn3 =  document.querySelector('#three')
+let btn4 =  document.querySelector('#four')
   /* Manipulating them with on click function via addEVentListener */
 btn1.addEventListener('click', function(){
     document.querySelector('#Text_one').textContent = "Onclick manipulation one"

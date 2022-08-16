@@ -1,12 +1,12 @@
 /* Set al variables */
-var alarm = document.querySelector(".alarm") 
-var time = document.querySelector(".time") 
-var set_time = document.querySelector(".set_time") 
+let alarm = document.querySelector(".alarm") 
+let time = document.querySelector(".time") 
+let set_time = document.querySelector(".set_time") 
 
 /* Set your alarm prompt using windows.prompt function */
-var a_hour = window.prompt("Set alarm hour")
-var a_minutes = window.prompt("Set alarm minutes")
-var a_seconds = window.prompt("Set alarm seconds")
+let a_hour = window.prompt("Set alarm hour")
+let a_minutes = window.prompt("Set alarm minutes")
+let a_seconds = window.prompt("Set alarm seconds")
 
 /* The Main FUnction */
 function current_time(){

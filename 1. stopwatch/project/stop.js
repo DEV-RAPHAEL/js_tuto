@@ -1,10 +1,10 @@
-var time = document.querySelector('.time')
-var start = document.querySelector('.start')
-var pause = document.querySelector('.pause')
-var reset = document.querySelector('.reset')
+let time = document.querySelector('.time')
+let start = document.querySelector('.start')
+let pause = document.querySelector('.pause')
+let reset = document.querySelector('.reset')
 
-var ms =0, s = 0, m = 0;
-var count;
+let ms =0, s = 0, m = 0;
+let count;
 
 start.addEventListener('click', function(){
     if (!count){

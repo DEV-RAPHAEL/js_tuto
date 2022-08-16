@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 95vh;
+}
+span{
+    color: greenyellow;
+}

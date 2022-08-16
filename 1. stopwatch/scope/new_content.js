@@ -14,12 +14,12 @@ document.getElementById('add_love').addEventListener('click', function(){
 
 
 /* by default, start time is ero */
-var sec = 0
+let sec = 0
 /* variable for the speed  */
-var count;
+let count;
 /* html elements variables */
-var start = document.getElementById('start')
-var seconds = document.querySelector('.seconds')
+let start = document.getElementById('start')
+let seconds = document.querySelector('.seconds')
 
 /* The button click trigger */
 start.addEventListener('click', function(){
