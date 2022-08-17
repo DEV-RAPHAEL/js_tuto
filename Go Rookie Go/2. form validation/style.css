@@ -1,0 +1,32 @@
+*{
+    font-family: poppins;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+form{
+    background-color: whitesmoke;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.input_area{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+input{
+    border: none;
+    padding: 5px;
+}
+button{
+    margin-top: 20px;
+    background-color: blueviolet;
+    border: none;
+    padding: 5px;
+    color: white;
+}

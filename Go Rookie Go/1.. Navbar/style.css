@@ -17,13 +17,20 @@ img{
     width: 40px;
 }
 a{
-    color: black;
+    color: white;
     font-weight: 700;
     text-decoration: none;
 }
 .links{
     overflow: hidden;
     height: 0;
+    transition: all 0.1s;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
 }
 li{
     list-style: none;
@@ -31,10 +38,10 @@ li{
 }
 .mobile{
     height: 90vh;
-    background-color: greenyellow;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    
 }
